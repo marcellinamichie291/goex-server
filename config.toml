@@ -1,0 +1,69 @@
+
+# 配置服务器web端口
+#接收的邮件地址
+
+
+[server]
+port = ":8080"
+mail = "842588355@qq.com,182360687@qq.com,584361621@qq.com"
+
+
+# 服务器交易数量
+[product]
+num = 1
+
+
+#交易产品配置
+#name 交易产品名字
+#money 交易分配的钱
+#strategy 产品使用的策略
+#corn 表达式几分钟或者几小时或者固定实现执行策略检测
+#KLINE_PERIOD_1MIN = 1
+#KLINE_PERIOD_3MIN = 2
+#KLINE_PERIOD_5MIN= 3
+#KLINE_PERIOD_15MIN= 4
+#KLINE_PERIOD_30MIN= 5
+#KLINE_PERIOD_60MIN= 6
+#KLINE_PERIOD_1H= 7
+#KLINE_PERIOD_2H= 8
+#KLINE_PERIOD_3H= 9
+#KLINE_PERIOD_4H= 10
+#KLINE_PERIOD_6H= 11
+#KLINE_PERIOD_8H= 12
+#KLINE_PERIOD_12H= 13
+#KLINE_PERIOD_1DAY= 14
+#KLINE_PERIOD_3DAY= 15
+#KLINE_PERIOD_1WEEK= 16
+#KLINE_PERIOD_1MONTH= 17
+#KLINE_PERIOD_1YEAR= 18
+
+#avg 策略 一般 120根 不支持大于360根
+#unit 最小单位  比如btc默认最低为 0.01个
+
+[product0]
+name = "SOS-USDT-SWAP"
+money = 20
+strategy ="ma"
+cron =  1
+avg = 120
+breakeven = true
+
+
+
+[product1]
+name = "BABYDOGE-USDT-SWAP"
+money = 300
+strategy ="ma"
+cron =  3
+avg = 120
+breakeven = true
+
+
+[product2]
+name = "CFX-USDT-SWAP"
+money = 300
+strategy ="ma"
+cron =  3
+avg = 120
+breakeven = true
+
