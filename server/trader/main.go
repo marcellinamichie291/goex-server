@@ -33,13 +33,13 @@ func initConfig() bool {
 
 var (
 	//Liuwenjun
-	//apiKey     = "45d2c7cc-3cb5-4b54-8b03-ec7e482878d2"
-	//secretKey  = "7F8D2277781199CFBC757E4961F35CBE"
-	//passPhrase = "123456789qq"
-	// Liu Mingyang
-	apiKey     = "c2eeb999-72f2-4266-9ac0-92c92b3a0404"
-	secretKey  = "668BD1201C828FD516FE6D2538FC08A7"
+	apiKey     = "45d2c7cc-3cb5-4b54-8b03-ec7e482878d2"
+	secretKey  = "7F8D2277781199CFBC757E4961F35CBE"
 	passPhrase = "123456789qq"
+	// Liu Mingyang
+	//apiKey     = "c2eeb999-72f2-4266-9ac0-92c92b3a0404"
+	//secretKey  = "668BD1201C828FD516FE6D2538FC08A7"
+	//passPhrase = "123456789qq"
 )
 
 func main() {

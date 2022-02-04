@@ -5,7 +5,7 @@
 
 [server]
 port = ":8080"
-mail = "842588355@qq.com,182360687@qq.com,584361621@qq.com"
+mail = "842588355@qq.com"
 
 
 # 服务器交易数量
@@ -41,10 +41,10 @@ num = 1
 #unit 最小单位  比如btc默认最低为 0.01个
 
 [product0]
-name = "SOS-USDT-SWAP"
-money = 20
+name = "LRC-USDT-SWAP"
+money = 100
 strategy ="ma"
-cron =  1
+cron =  4
 avg = 120
 breakeven = true
 
