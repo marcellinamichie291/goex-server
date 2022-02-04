@@ -147,6 +147,13 @@ func (ok *OKExV5Spot) ClosePosition(instId, mode, ccy string) (bool, error) {
 
 func (ok *OKExV5Spot) MarketBuy(amount, side string, currency CurrencyPair) (*Order, error) {
 
+	var posSide string
+	if side == "buy" {
+		posSide = "long"
+	} else if side == "sell" {
+		posSide = "short"
+	}
+
 	response, err := ok.CreateOrder(&CreateOrderParam{
 		Symbol:    currency.ToSymbol("-"),
 		TradeMode: "cross",
@@ -154,7 +161,7 @@ func (ok *OKExV5Spot) MarketBuy(amount, side string, currency CurrencyPair) (*Or
 		OrderType: "market",
 		Size:      amount,
 		CCY:       "USDT",
-		//PosSide:   posSide,
+		PosSide:   posSide,
 	})
 	if err != nil {
 		return nil, err
@@ -167,7 +174,6 @@ func (ok *OKExV5Spot) MarketBuy(amount, side string, currency CurrencyPair) (*Or
 	}, nil
 }
 func (ok *OKExV5Spot) MarketSell(amount, price string, currency CurrencyPair) (*Order, error) {
-
 	response, err := ok.CreateOrder(&CreateOrderParam{
 		Symbol:    currency.ToSymbol("-"),
 		TradeMode: "cash",
@@ -184,8 +190,8 @@ func (ok *OKExV5Spot) MarketSell(amount, price string, currency CurrencyPair) (*
 		Cid:      response.ClientOrdId,
 		OrderID2: response.OrdId,
 	}, nil
-
 }
+
 func (ok *OKExV5Spot) CancelOrder(orderId string, currency CurrencyPair) (bool, error) {
 	_, err := ok.CancelOrderV5(currency.ToSymbol("-"), orderId, "")
 	if err != nil {

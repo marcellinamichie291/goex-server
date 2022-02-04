@@ -48,7 +48,7 @@ func main() {
 	/********* BTC_USDT_SWAP 永续合约交易amount参数为btc 合约张数，最低1 **********/
 	//tradeAmount := balanceAvailable * 0.01
 	//tradeAmountStr := strconv.FormatFloat(tradeAmount, 'f', 0, 32)
-	order, buyErr := api.MarketBuy("0.1", "buy", goex.BTC_USDT_SWAP)
+	order, buyErr := api.MarketBuy("1", "buy", goex.LRC_USDT_SWAP)
 	log.Println(order)
 	log.Println(buyErr)
 	/********* 市价全平 **********/

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="25011d9d-0568-439d-a75c-f86b62b19d8f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/server/goex/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/goex/main/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/goex/okex/v5/OKExV5Spot.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/goex/okex/v5/OKExV5Spot.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/trader/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/server/trader/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/trader/go_build_main_go.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/trader/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/trader/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/trader/sys.log" beforeDir="false" afterPath="$PROJECT_DIR$/server/trader/sys.log" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GOROOT" url="file:///usr/local/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="GoLibraries">
+    <option name="urls">
+      <list>
+        <option value="file://$PROJECT_DIR$/../Go_project" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="24SJjhuP0IDNdQDzVswp8HgYfz9" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable..is.expanded" value="true" />
+    <property name="configurable.GoLibrariesConfigurable.is.expanded" value="true" />
+    <property name="go.format.on.save.advertiser.fired" value="true" />
+    <property name="go.formatter.settings.were.checked" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.modules.go.list.on.any.changes.was.set" value="true" />
+    <property name="go.watchers.conflict.with.on.save.actions.check.performed" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="http.proxy" />
+  </component>
+  <component name="RunManager" selected="Go Build.go build goex/main">
+    <configuration name="go build goex-server" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
+      <module name="goex-server" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build goex/main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="goex-server" />
+      <working_directory value="$PROJECT_DIR$/server/goex" />
+      <kind value="PACKAGE" />
+      <package value="goex/main" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/server/goex/main/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build trader" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="goex-server" />
+      <working_directory value="$PROJECT_DIR$/server/trader" />
+      <kind value="PACKAGE" />
+      <package value="trader" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/server/trader/main.go" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Go Build.go build goex-server" />
+      <item itemvalue="Go Build.go build trader" />
+      <item itemvalue="Go Build.go build goex/main" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build goex/main" />
+        <item itemvalue="Go Build.go build trader" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
+</project>
